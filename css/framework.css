@@ -1,0 +1,47 @@
+/* Display */
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-se {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+/* Paddding And Margin */
+.p-tb-20 {
+    padding: 20px 0;
+}
+/* Font */
+.upper-case {
+    text-transform: uppercase;
+}
+
+/* Color */
+.c-black {
+    color: #323334;
+}
+/* Elements */
+.btn {
+    display: block;
+    width: fit-content;
+    color: var(--black-color);
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid var(--black-color);
+}
+.btn:hover {
+    background-color: #eee;
+}
+/*  */
