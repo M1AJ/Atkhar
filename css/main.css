@@ -98,7 +98,12 @@ img {
   height: 40px;
   object-fit: cover;
 }
-
+@media (max-width: 767px) {
+.header .container .logo img {
+  width: 30px;
+  height: 30px;
+}
+}
 .header .container input {
   display: none;
 }
@@ -152,7 +157,7 @@ img {
   .header .container ul a {
     background-color: #0077ff;
     color: white;
-    padding: 15px 10px;
+    padding: 10px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -164,7 +169,7 @@ img {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     color: #0077ff;
-    font-size: 25px;
+    font-size: 20px;
   }
   .header .container input[type="checkbox"]:checked + label::after {
     content: "\f057";
@@ -194,7 +199,7 @@ img {
 }
 @media (max-width: 767px) {
   .landing .container {
-    min-height: calc(100vh - 56.39px);
+    min-height: calc(100vh - 53px);
   }
 }
 
