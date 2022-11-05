@@ -236,11 +236,11 @@ img {
   align-items: center;
   justify-content: center;
   width: 60px;
-  height: 25px;
+  height: 30px;
   border-radius: 20px;
   border: 2px solid #0077ff;
   background: linear-gradient(to left, #0077ff 50%, white 50%);
-  background-size: 200% 100%;
+  background-size: 205% 105%;
   background-position: left;
   transition: 0.3s;
   color: white;
