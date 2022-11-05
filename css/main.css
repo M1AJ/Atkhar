@@ -273,20 +273,11 @@ img {
 }
 .section-four .container .box {
   text-align: center;
-  padding: 20px 15px;
+  padding: 15px;
   border-radius: 10px;
   background-color: white;
 }
-.section-four .container span {
-  font-weight: normal;
-}
-.section-four .container audio {
-  max-width: 100%;
-  margin-top: 20%;
-}
-audio::-webkit-media-controls-time-remaining-display {
-  display: none;
-}
+
 /*  */
 .footer p {
   margin: 0;
