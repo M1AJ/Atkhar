@@ -269,16 +269,30 @@ img {
   min-height: 0;
 }
 .section.section-four .container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+.section.section-four .container {
+flex-direction: column;
+}
 }
 .section-four .container .box {
   text-align: center;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 2px;
   background-color: white;
 }
-
+iframe {
+  flex: 1;
+  min-height: 300px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
 /*  */
+
 .footer p {
   margin: 0;
   padding: 20px;
