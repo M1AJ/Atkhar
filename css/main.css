@@ -93,12 +93,9 @@ img {
 .header .container .logo h2 {
   color: #0077ff;
   margin: 5px;
+  padding-right: 15px;
 }
-.header .container .logo img {
-  width: 40px; 
-  height: 40px;
-  object-fit: cover;
-}
+
 .header .container input {
   display: none;
 }
@@ -126,7 +123,7 @@ img {
 }
 @media (max-width: 767px) {
   .header .container {
-    padding: 10px 15px 2px;
+    padding: 10px 0 2px;
     flex-wrap: wrap;
   }
   .header .container ul {
@@ -165,6 +162,7 @@ img {
     font-weight: bold;
     color: #0077ff;
     font-size: 20px;
+    padding-left: 15px;
   }
   .header .container input[type="checkbox"]:checked + label::after {
     content: "\f057";
