@@ -280,12 +280,8 @@ img {
 flex-direction: column;
 }
 }
-.section-four .container .box {
-  text-align: center;
-  padding: 2px;
-  background-color: white;
-}
 iframe {
+  margin: 0 auto;
   flex: 1;
   min-height: 300px;
   max-width: 100%;
