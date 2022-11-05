@@ -90,8 +90,9 @@ img {
   align-items: center;
   background-color: white;
 }
-.header .container .logo {
-  padding: 0 20px;
+.header .container .logo h2 {
+  color: #0077ff;
+  margin: 5px;
 }
 .header .container .logo img {
   width: 40px; 
@@ -125,7 +126,7 @@ img {
 }
 @media (max-width: 767px) {
   .header .container {
-    padding: 10px 0 2px;
+    padding: 10px 15px 2px;
     flex-wrap: wrap;
   }
   .header .container ul {
